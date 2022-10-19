@@ -45,23 +45,7 @@
     "keywords": [],
     "license": "(MIT AND Apache-2.0)",
     "scripts": {
-        "dist": "pnpm browserify",
-        "browserify": "browserify browser-exports.js -i node-fetch -i http -i https -o dist/near-api-js.js && browserify browser-exports.js -i node-fetch -g uglifyify -o dist/near-api-js.min.js",
-        "compile": "tsc -p ./tsconfig.json",
-        "dev": "pnpm compile -w",
-        "build": "pnpm compile && pnpm browserify",
-        "test": "jest test",
-        "lint": "concurrently \"pnpm:lint:*(!fix)\"",
-        "lint:src": "eslint --ext .ts src",
-        "lint:test": "eslint --ext .js test",
-        "lint:fix": "concurrently \"pnpm:lint:*:fix\"",
-        "lint:src:fix": "eslint --ext .ts --fix src",
-        "lint:test:fix": "eslint --ext .js --fix test",
-        "prefuzz": "pnpm build",
-        "fuzz": "jsfuzz test/fuzz/borsh-roundtrip.js test/fuzz/corpus/",
-        "clean": "pnpm rimraf lib",
-        "prepare": "pnpm build",
-        "bundlewatch": "bundlewatch"
+       
     },
     "bundlewatch": {
         "files": [
