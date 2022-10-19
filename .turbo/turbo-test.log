@@ -1,0 +1,23 @@
+[35mnear-api-js:test[0m: cache hit, replaying output [2m84cd3b7d382d6ccd[0m
+[35mnear-api-js:test: [0m
+[35mnear-api-js:test: [0m> near-api-js@1.1.0 test /Users/aserafin/Projects/near-api-js/packages/near-api-js
+[35mnear-api-js:test: [0m> jest test
+[35mnear-api-js:test: [0m
+[35mnear-api-js:test: [0mPASS test/transaction.test.js
+[35mnear-api-js:test: [0mWed, 19 Oct 2022 12:08:27 GMT contract.methodName(args, gas, amount) deprecated use `contract.methodName({ args, gas?, amount?, callbackUrl?, meta? })` instead at <anonymous>:null:null
+[35mnear-api-js:test: [0mWed, 19 Oct 2022 12:08:27 GMT contract.methodName(args, gas, amount) deprecated use `contract.methodName({ args, gas?, amount?, callbackUrl?, meta? })` instead at <anonymous>:null:null
+[35mnear-api-js:test: [0mWed, 19 Oct 2022 12:08:27 GMT contract.methodName(args, gas, amount) deprecated use `contract.methodName({ args, gas?, amount?, callbackUrl?, meta? })` instead at <anonymous>:null:null
+[35mnear-api-js:test: [0mWed, 19 Oct 2022 12:08:27 GMT contract.methodName(args, gas, amount) deprecated use `contract.methodName({ args, gas?, amount?, callbackUrl?, meta? })` instead at <anonymous>:null:null
+[35mnear-api-js:test: [0mPASS test/contract.test.js
+[35mnear-api-js:test: [0mPASS test/signer.test.js
+[35mnear-api-js:test: [0mPASS test/key_stores/in_memory_keystore.test.js (5.23 s)
+[35mnear-api-js:test: [0mPASS test/key_stores/merge_keystore.test.js (5.283 s)
+[35mnear-api-js:test: [0mPASS test/key_stores/unencrypted_file_system_keystore.test.js (5.358 s)
+[35mnear-api-js:test: [0mPASS test/key_stores/browser_keystore.test.js (5.343 s)
+[35mnear-api-js:test: [0mPASS test/serialize.test.js
+[35mnear-api-js:test: [0mPASS test/utils/rpc-errors.test.js
+[35mnear-api-js:test: [0mPASS test/utils/format.test.js
+[35mnear-api-js:test: [0mPASS test/utils/web.test.js
+[35mnear-api-js:test: [0mPASS test/validator.test.js
+[35mnear-api-js:test: [0mPASS test/key_pair.test.js
+[35mnear-api-js:test: [0mPASS test/wallet-account.test.js (7.723 s)

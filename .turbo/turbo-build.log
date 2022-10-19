@@ -1,0 +1,13 @@
+[35mnear-api-js:build[0m: cache hit, replaying output [2mb761c515d10e2da5[0m
+[35mnear-api-js:build: [0m
+[35mnear-api-js:build: [0m> near-api-js@1.1.0 build /Users/aserafin/Projects/near-api-js/packages/near-api-js
+[35mnear-api-js:build: [0m> pnpm compile && pnpm browserify
+[35mnear-api-js:build: [0m
+[35mnear-api-js:build: [0m
+[35mnear-api-js:build: [0m> near-api-js@1.1.0 compile /Users/aserafin/Projects/near-api-js/packages/near-api-js
+[35mnear-api-js:build: [0m> tsc -p ./tsconfig.json
+[35mnear-api-js:build: [0m
+[35mnear-api-js:build: [0m
+[35mnear-api-js:build: [0m> near-api-js@1.1.0 browserify /Users/aserafin/Projects/near-api-js/packages/near-api-js
+[35mnear-api-js:build: [0m> browserify browser-exports.js -i node-fetch -i http -i https -o dist/near-api-js.js && browserify browser-exports.js -i node-fetch -g uglifyify -o dist/near-api-js.min.js
+[35mnear-api-js:build: [0m
